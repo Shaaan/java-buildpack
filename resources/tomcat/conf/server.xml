@@ -29,6 +29,7 @@
                   failCtxIfServletStartFails='true'>
                 <Listener className='org.cloudfoundry.tomcat.lifecycle.ApplicationStartupFailureDetectingLifecycleListener'/>
             </Host>
+          <Context docBase="/home/vcap/tmp/transactions"  path="/OCRImages" />
         </Engine>
     </Service>
 
